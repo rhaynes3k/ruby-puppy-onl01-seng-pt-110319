@@ -25,7 +25,7 @@ class Dog
     @@all << self
   end
   
-  def name
-    self.name
+  def name(name)
+    @name = name
   end
 end
